@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+     font-family: 'Lato';
+     padding: 0;
+     margin: 0;
+     border: 3px solid black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* box-shadow: 2px 2px black; */
+    position: sticky;
+    border: 3px solid black;
+}
+
+.navbar-logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar-link {
+    display: flex;
+}
+
+.navbar-link ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 2px;
+}
+
+.navbar-link a {
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.navbar-link a:hover {
+    background-color: peru;
+    cursor: pointer;
+}
+
+.text {
+    text-align: center;
+    padding: 5px;
+    border: 3px solid black;
+}
+
+.text h1 {
+    margin: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.photo-card {
+    width: 1366px;
+    height: 578px;
+    margin: 10px 10px;
+    padding: 10px;
+}
+
+.about {
+     width: 100%;
+    height: 100%;
+    background-color: azure;
+}
+
+.about h2 {
+   justify-content: center;
+   text-align: center;
+}
+
+.wrapper-about {
+    border: 3px solid black;
+}
+
+.visi-misi {
+    text-align: center;
+    margin: 30px;
+    padding: 5px;
+    background: #fff;
+    border: 1px solid black;
+    background-color: azure;
+}
+
+.form {
+    border: 3px solid black;
+}
+
+.form-group {
+    padding: 5px;
+    margin: 10px;
+}
+
+button {
+    margin-left: 513px;
+    width: 25%;
+    height: 30px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+
+.form button:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+
+ label {
+    display: inline-block;
+    width: 600px;
+    font-size: 15px;
+    text-align: right;
+    font-weight: 500;
+}
+
+.form-group-radio label{
+    text-align: left;
+    width: 300px;
+    margin-left: 513px;
+}
+
+
+textarea {
+    padding: 15px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+footer {
+    padding: 20px;
+    text-align: right;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-link {
+        gap: 20px;
+    }
+    .navbar-link li {
+        margin: 50px 0;
+    }
+    .photo-card {
+        max-width: 100%;
+    }
+    .form-group {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
